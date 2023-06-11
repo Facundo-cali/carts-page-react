@@ -10,11 +10,11 @@ const Hero = () => {
     <div className='hero'>
         <div className='flex-1 pt-36 padding-x'>
             <h1 className='hero__title'>
-                Find, book, or rent a car - quickly and easily!
+              Find, book, or rent a car - quickly and easily!
             </h1>
 
             <p className='hero__subtitle'>
-                Streamline your car rental process with our online booking system. 
+              Streamline your car rental process with our online booking system. 
             </p>
 
             <CustomButton
@@ -26,10 +26,9 @@ const Hero = () => {
         <div className='hero__image-container'>
           <div className='hero__image'>
             <Image src="/hero.png" alt='/hero.png' fill className="object-contain"/>
-
-            <div className='hero__image-overlay'></div>
           </div>
 
+          <div className='hero__image-overlay'></div>
         </div>
     </div>
   )
